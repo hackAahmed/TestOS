@@ -15,17 +15,20 @@ The ping command must be available on the system.
 Installation :
 
 Clone the repository
-git clone <repository_url>
+git clone https://github.com/hackAahmed/TestOS.git
+cd TestOS
 
 Make the script executable
-chmod +x check_os.sh
+chmod +x TestOS.sh
 
 Usage :
 To use the tool, execute the following command in the terminal:
 
-./check_os.sh -s <IP_ADDRESS>
+./TestOS.sh -s <IP_ADDRESS>
+or
+bash TestOS.sh -s <IP_ADDRESS>
 Replace <IP_ADDRESS> with the IP address of the machine you want to test. For example:
 
-./check_os.sh -s 192.168.1.1
+./TestOS.sh -s 192.168.1.1
 Options
 -s <IP_ADDRESS>: Specifies the IP address of the target machine.
