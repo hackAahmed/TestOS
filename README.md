@@ -16,6 +16,7 @@ Installation :
 
 Clone the repository
 git clone https://github.com/hackAahmed/TestOS.git
+
 cd TestOS
 
 Make the script executable
