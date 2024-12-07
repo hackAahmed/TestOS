@@ -20,15 +20,19 @@ git clone https://github.com/hackAahmed/TestOS.git
 cd TestOS
 
 Make the script executable
+
 chmod +x TestOS.sh
 
 Usage :
 To use the tool, execute the following command in the terminal:
 
 ./TestOS.sh -s <IP_ADDRESS>
+
 or
+
 bash TestOS.sh -s <IP_ADDRESS>
 Replace <IP_ADDRESS> with the IP address of the machine you want to test. For example:
+
 
 ./TestOS.sh -s 192.168.1.1
 Options
