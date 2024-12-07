@@ -31,9 +31,12 @@ To use the tool, execute the following command in the terminal:
 or
 
 bash TestOS.sh -s <IP_ADDRESS>
+
 Replace <IP_ADDRESS> with the IP address of the machine you want to test. For example:
 
 
 ./TestOS.sh -s 192.168.1.1
-Options
+
+Options :
+
 -s <IP_ADDRESS>: Specifies the IP address of the target machine.
